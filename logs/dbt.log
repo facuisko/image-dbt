@@ -1,0 +1,130 @@
+
+
+============================== 2022-08-09 15:02:41.558238 | 462fd4b7-c6c2-45e9-a9c1-c404ce79cca2 ==============================
+15:02:41.558247 [info ] [MainThread]: Running with dbt=1.1.1
+15:02:41.558514 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/facundoiskowitz/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+15:02:41.558612 [debug] [MainThread]: Tracking: tracking
+15:02:41.596010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1118ebf70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1118d7e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1118c0910>]}
+15:02:54.754155 [debug] [MainThread]: Starter project path: /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/dbt/include/starter_project
+15:05:22.280723 [info ] [MainThread]: Profile ipc written to /Users/facundoiskowitz/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+15:05:22.282807 [info ] [MainThread]: 
+Your new dbt project "ipc" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+15:05:22.284056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1118c0910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1118eb130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1118eba00>]}
+
+
+============================== 2022-08-09 15:11:17.704643 | a28433b6-8c67-452a-8419-83f48a367088 ==============================
+15:11:17.704652 [info ] [MainThread]: Running with dbt=1.1.1
+15:11:17.705059 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/facundoiskowitz/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'loa', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+15:11:17.705155 [debug] [MainThread]: Tracking: tracking
+15:11:17.737679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4429a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d42eeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d416fd0>]}
+15:11:17.739485 [debug] [MainThread]: Starter project path: /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/dbt/include/starter_project
+15:11:56.611635 [info ] [MainThread]: Profile loa written to /Users/facundoiskowitz/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+15:11:56.612407 [info ] [MainThread]: 
+Your new dbt project "loa" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+15:11:56.612814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d42ea60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d442a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4420d0>]}
+
+
+============================== 2022-08-09 15:12:40.501106 | 66725349-6dcd-45e0-a672-1570b92709c7 ==============================
+15:12:40.501116 [info ] [MainThread]: Running with dbt=1.1.1
+15:12:40.501525 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/facundoiskowitz/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'fgl', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+15:12:40.501622 [debug] [MainThread]: Tracking: tracking
+15:12:40.530686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cecd910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ceb9ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce9fb80>]}
+15:12:40.532303 [debug] [MainThread]: Starter project path: /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/dbt/include/starter_project
+15:12:58.556094 [info ] [MainThread]: Profile fgl written to /Users/facundoiskowitz/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+15:12:58.556879 [info ] [MainThread]: 
+Your new dbt project "fgl" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+15:12:58.557315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ceb9a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cecd0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cecd040>]}
+
+
+============================== 2022-08-09 15:14:20.097661 | 51e3f5c7-58d8-48c0-ab1b-00edaa0ab864 ==============================
+15:14:20.097673 [info ] [MainThread]: Running with dbt=1.1.1
+15:14:20.098170 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/facundoiskowitz/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'shared', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+15:14:20.098277 [debug] [MainThread]: Tracking: tracking
+15:14:20.128002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ede6fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10edd2d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ede6970>]}
+15:14:20.129723 [debug] [MainThread]: Starter project path: /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/dbt/include/starter_project
+15:15:10.794615 [info ] [MainThread]: Profile shared written to /Users/facundoiskowitz/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+15:15:10.795654 [info ] [MainThread]: 
+Your new dbt project "shared" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+15:15:10.796093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ede69d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ede69a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ede6fd0>]}
+
+
+============================== 2022-08-09 15:16:22.310874 | 820c8376-fbbf-491a-8668-e8e56329e827 ==============================
+15:16:22.310884 [info ] [MainThread]: Running with dbt=1.1.1
+15:16:22.311452 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/facundoiskowitz/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'documentation', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+15:16:22.311549 [debug] [MainThread]: Tracking: tracking
+15:16:22.339786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110fa9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110e6eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110cefd0>]}
+15:16:22.341490 [debug] [MainThread]: Starter project path: /opt/homebrew/Caskroom/miniforge/base/lib/python3.9/site-packages/dbt/include/starter_project
+15:16:45.999845 [info ] [MainThread]: Profile documentation written to /Users/facundoiskowitz/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+15:16:46.000592 [info ] [MainThread]: 
+Your new dbt project "documentation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+15:16:46.001152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110e6a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110fa070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110fa130>]}
