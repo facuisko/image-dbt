@@ -2,12 +2,11 @@
 
     {%- if custom_alias_name is none -%}
 
-        {{ env_var('USER') }}_{{ node.name }}
+        {{ node.name }}_{{var('usuario')}}
 
     {%- else -%}
 
-        {{ env_var('USER') }}_{{ custom_alias_name | trim }}
-
+        {{ custom_alias_name | trim }}_{{var('usuario')}}
     {%- endif -%}
 
 {%- endmacro %}
